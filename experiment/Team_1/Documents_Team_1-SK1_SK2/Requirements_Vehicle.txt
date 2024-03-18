@@ -1,0 +1,2 @@
+The vehicle shall have an overall flat ground range of 200 KM.
+The vehicle shall have a top speed of 50 mph on flat paved level surface.

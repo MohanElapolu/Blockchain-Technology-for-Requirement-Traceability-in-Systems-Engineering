@@ -1,0 +1,3 @@
+The vehicle’s width shall be no more than 2.50 m.
+The vehicle’s length shall be no more than 5.50 m.
+The vehicle’s gross weight shall be no more than 5100 Kg.

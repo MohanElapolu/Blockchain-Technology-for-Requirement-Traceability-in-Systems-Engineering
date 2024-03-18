@@ -1,0 +1,2 @@
+The engine shall have power not less than 200 kw.
+The engine shall have torque not less than 500 Nm.

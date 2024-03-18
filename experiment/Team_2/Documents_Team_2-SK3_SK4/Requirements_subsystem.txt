@@ -1,0 +1,3 @@
+The autonomous system shall be able to detect an object within a range of 50 m.
+The autonomous system shall be able to allow 360-degree view of surroundings.
+The autonomous system shall be able to detect color of stoplight.

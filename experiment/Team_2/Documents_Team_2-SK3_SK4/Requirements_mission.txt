@@ -1,0 +1,4 @@
+The system shall be able to navigate autonomously in a variety of weather conditions.
+The system shall be able to navigate autonomously in a variety of terrain conditions.
+The system shall have a cargo capacity of 300 kg.
+

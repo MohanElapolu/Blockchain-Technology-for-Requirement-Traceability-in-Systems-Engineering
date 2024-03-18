@@ -1,0 +1,2 @@
+SOP_100 (This is the Id of the standard operating procedures for structural systems. This standard provides vehicle physical properties like dimensions and weight)
+FMVSS 214 (This is the Id of the federal safety standards for side impact protection. This standard helps defining the structural strength).

@@ -1,0 +1,2 @@
+The system shall be capable of disaster support within a radius of 80 KM.
+The system shall be able to travel 80 km distance within 2 hrs.

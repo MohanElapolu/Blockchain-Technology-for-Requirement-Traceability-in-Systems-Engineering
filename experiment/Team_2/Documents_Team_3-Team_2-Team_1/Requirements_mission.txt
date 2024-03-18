@@ -1,0 +1,2 @@
+The system shall have a cargo capacity of 600 kg.
+The system shall be carrying out searching for 48-hour without refueling.

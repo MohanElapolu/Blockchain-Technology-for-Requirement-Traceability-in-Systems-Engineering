@@ -1,0 +1,2 @@
+The vehicle shall be able to avoid collisions with obstacles within a radius of 50 m.
+The vehicle shall be able to perceive the position of the obstacle and topography in a 3D map.

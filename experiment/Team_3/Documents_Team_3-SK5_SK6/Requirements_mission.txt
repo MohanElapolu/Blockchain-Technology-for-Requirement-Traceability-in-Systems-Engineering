@@ -1,0 +1,3 @@
+The system shall be carrying out searching for 12-hour without refueling.
+The system shall be able to reconnaissance the surrounding conditions.
+The system shall be transportable.
