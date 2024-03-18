@@ -20,7 +20,7 @@ Return n
 Match (n) 
 Detach Delete n.
 ```
-![Figure 1: Neo4J requirement graph](/experiment/assets/neo4j_browser)
+![Figure 1: Neo4J requirement graph](/experiment/assets/neo4j_browser.png)
 ## Neo4J Code
 1. The necessary python code to create graph will be opened in the visual studio (VS) and ready to use. The user must run this code to extract the information from the requirement chain text file and create Neo4J graph.
 2. To run the Jupyter notebook code the user has to click the run button at the left of the cell as shown in the Figure 2.
