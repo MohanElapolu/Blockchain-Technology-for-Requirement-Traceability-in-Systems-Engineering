@@ -2,15 +2,18 @@
 ## Scenario
 1. The objective of this experiment is to generate requirements for an autonomous vehicle. System objective is <br>
    _A high-speed autonomous off-road reconnaissance vehicle._
-3. Mission statements that provide the intended utility of the system is also given. You must generate mission, vehicle, and sub-system requirements.
+2. In this experimental scenario, three teams will collaborate to generate the requirements based on the system objective.
+3. The requirement artifacts which are given to each team is there in directories Team_1 , Team_2, Team_3.
+4. The directories contain mission statements that provide the intended utility of the system is also given.
+5. Teams must generate and document mission, vehicle, and sub-system requirements in that heierarchy.
 
 ## Tools
-1. You need various tool to document and communicate the requirements.
+1. Teams use various tools to document and communicate the requirements.
 2. Neo4J for graph-based visualization of requirements, a template to document the artifact and object traces, and the blockchain web application to upload the documents. Further details on the tools are provided in the following sections.
 
 # Graph Visualization:   
 ## Neo4J browser
-1. Neo4J browser will be opened and ready to use. Figure 1. Shows the sample requirement graph displayed in the Neo4J browser. The command used to generate the graph is
+1. Neo4J browser will be opened and ready to use. Figure 1. Shows the sample requirement graph displayed in the Neo4J browser. However, at the beginining of the experiment there won't be any information to display. Hence no graph is seen. The command used to generate the graph is
 ```
 Match (n)
 Return n
