@@ -15,12 +15,13 @@
 Match (n)
 Return n
 ```
+![](/experiment/assets/neo4j_browser.png)
+*Figure 1: Neo4J requirement graph*
 2. Before running the Neo4J code, user will be required to clear the graph database. The necessary command to delete existing graph database is
 ```
 Match (n) 
 Detach Delete n.
 ```
-![Figure 1: Neo4J requirement graph](/experiment/assets/neo4j_browser.png)
 ## Neo4J Code
 1. The necessary python code to create graph will be opened in the visual studio (VS) and ready to use. The user must run this code to extract the information from the requirement chain text file and create Neo4J graph.
 2. To run the Jupyter notebook code the user has to click the run button at the left of the cell as shown in the Figure 2.
