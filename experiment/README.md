@@ -15,6 +15,10 @@
 Match (n)
 Return n
 ```
+<figure class="image">
+  <img src="{{ /experiment/assets/neo4j_browser.png }}" alt="{{ Figure 1: Neo4J requirement graph }}">
+  <figcaption>{{ Figure 1: Neo4J requirement graph }}</figcaption>
+</figure>
 |![](/experiment/assets/neo4j_browser.png)|
 |*Figure 1: Neo4J requirement graph*|
 2. Before running the Neo4J code, user will be required to clear the graph database. The necessary command to delete existing graph database is
