@@ -1,6 +1,6 @@
 # Introduction
 ## Scenario
-1. The objective of this experiment is to generate requirements for an autonomous vehicle. System objective is * A high-speed autonomous off-road reconnaissance vehicle. *
+1. The objective of this experiment is to generate requirements for an autonomous vehicle. System objective is _A high-speed autonomous off-road reconnaissance vehicle._
 2. Mission statements that provide the intended utility of the system is also given. You must generate mission, vehicle, and sub-system requirements.
 
 ## Tools
@@ -27,10 +27,10 @@ Detach Delete n.
 # Data Collection
 ## Artifact Creation
 1. Use the template as shown in Figure 3 and fill all the necessary requirement traceability information.
-2. b.	Artifact Creators will be the stake holders involved in creating the artifact. 
-* Ex. Stake holder 1, Stake holder 2, Stake holder 3, Stake holder 4, Stake holder 5, Stake holder 6. *
-3. Artifact Name is the name of the artifact. Please use the below names to have consistency throughout the process.
-* Ex: Mission Requirements, System Requirements, Vehicle Requirements, Subsystem Requirements, Minutes of Meeting, Operating Procedures *
+2. b.	Artifact Creators will be the stake holders involved in creating the artifact.
+   _Ex. Stake holder 1, Stake holder 2, Stake holder 3, Stake holder 4, Stake holder 5, Stake holder 6._
+4. Artifact Name is the name of the artifact. Please use the below names to have consistency throughout the process.
+  _Ex: Mission Requirements, System Requirements, Vehicle Requirements, Subsystem Requirements, Minutes of Meeting, Operating Procedures_
 4. Parent Artifact ID is the hash of the block that the current artifact depends on. This block can depend on more than one parent artifact. The parent artifact hash can be found from Neo4J browser as shown in Figure 4. You select the parent artifact block, and the hash will be found on the right side of the browser.
 5. Object is the smallest possible element of the document of a design activity. For instance, in a requirement document, a requirement is the object. In Minutes of meeting, each critical bullet point can become an object.
 6. Parent Object is the smallest possible element that the current Object depends on.
