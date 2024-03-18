@@ -56,11 +56,6 @@ Detach Delete n.
 7. Object is the smallest possible element of the document of a design activity. For instance, in a requirement document, a requirement is the object. In Minutes of meeting, each critical bullet point can become an object.
 8. Parent Object is the smallest possible element that the current Object depends on.
 9. Link Type should be specified for artifact and object traces. Possible link types can be DEPENDS_ON, EVOLVED_TO, JUSTIFIES, SATISFIES. <br> 
-  The description of these links will be given using two sample objects “O1” (parent object) and “O2” (child object). <br>
-  - DEPENDS_ON: If “O2” is derived from “O1” and any changes in “O1” will affect “O2”. <br>
-  - EVOLVED_TO: If “O2” is newer version of “O1”. <br>
-  - JUSTIFIES: If “O2” supports and justifies the existence of “O1”. <br>
-  - SATISFIES: If “O2” satisfies “O1”. 
 
 ## Multiple parents
 1. If a single object/artifact has multiple parents, we must create copies of the same object and document all the parent objects/artifacts and links types.   For instance, if object A has two parent objects B and C, it will be documented as shown in Figure 5. <br>
