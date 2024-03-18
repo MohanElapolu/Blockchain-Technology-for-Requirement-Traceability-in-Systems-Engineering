@@ -6,6 +6,7 @@
 3. The requirement artifacts which are given to each team is there in directories Team_1 , Team_2, Team_3.
 4. The mission statements that provide the intended utility of the system is also given.
 5. Teams must generate and document mission, vehicle, and sub-system requirements in that heierarchy.
+6. For more details about this scenario, check our paper "Blockchain Technology for Requirement Traceability in Systems Engineering"
 
 ## Tools
 1. Teams use various tools to document and communicate the requirements.
