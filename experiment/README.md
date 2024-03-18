@@ -4,7 +4,7 @@
    _A high-speed autonomous off-road reconnaissance vehicle._
 2. In this experimental scenario, three teams will collaborate to generate the requirements based on the system objective.
 3. The requirement artifacts which are given to each team is there in directories Team_1 , Team_2, Team_3.
-4. The directories contain mission statements that provide the intended utility of the system is also given.
+4. The mission statements that provide the intended utility of the system is also given.
 5. Teams must generate and document mission, vehicle, and sub-system requirements in that heierarchy.
 
 ## Tools
