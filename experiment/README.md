@@ -14,7 +14,7 @@
 
 # Graph Visualization:   
 ## Neo4J browser
-1. Neo4J browser will be opened and ready to use. Figure 1. Shows the sample requirement graph displayed in the Neo4J browser. However, at the beginining of the experiment there won't be any information to display. Hence no graph is seen. The command used to generate the graph is
+1. Download and install Neo4J following the instructions in their website. Figure 1, Shows the sample requirement graph displayed in the Neo4J browser. However, at the beginining of the experiment there won't be any information to display. Hence no graph is seen. The command used to generate the graph is
 ```
 Match (n)
 Return n
@@ -22,13 +22,13 @@ Return n
 ![](/experiment/assets/neo4j_browser.png) <br>
 *Figure 1: Neo4J requirement graph* <br>
 <br>
-2. Before running the Neo4J code, user will be required to clear the graph database. The necessary command to delete existing graph database is
+2. Graph visualization code is in the visualization directory. Before running the Neo4J code, user will be required to clear the graph database. The necessary command to delete existing graph database is
 ```
 Match (n) 
 Detach Delete n.
 ```
 ## Neo4J Code
-1. The necessary python code to create graph will be opened in the visual studio (VS) and ready to use. The user must run this code to extract the information from the requirement chain text file and create Neo4J graph.
+1. The necessary python code to create graph will be opened in the visual studio (VS) and ready to use. The user must run this code to extract the information from the RequirementChain text file and create Neo4J graph.
 2. To run the Jupyter notebook code the user has to click the run button at the left of the cell as shown in the Figure 2. <br>
 
 ![](/experiment/assets/neo4j_code_snippet.png) <br>
