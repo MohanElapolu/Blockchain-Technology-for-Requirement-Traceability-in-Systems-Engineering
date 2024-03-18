@@ -30,6 +30,6 @@ python run.py
 4. You will be ready to use the application..
 
 ## Create and upload artifact
-1. Use the artifact template file to fill the necessary traceability information
-  - _Note: If it is your first artifact, it wont have parent artifact and object. Yes this will be your genesis block._
+1. Use the artifact template file to fill the necessary traceability information <br>
+_Note: If it is your first artifact, it wont have parent artifact and object. Yes this will be your genesis block._
 3. Upload the artifact through the web app
