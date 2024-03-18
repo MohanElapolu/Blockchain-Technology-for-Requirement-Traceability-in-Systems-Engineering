@@ -3,7 +3,7 @@
 ## Setup the application
 1. Download the blockchain_app
 2. Create and activate the virtual environment in the blockchain_app folder:
-  - For Windows:
+  - For Windows
 	```
 	$ python -m venv venv
 	$ .\venv\Scripts\activate
