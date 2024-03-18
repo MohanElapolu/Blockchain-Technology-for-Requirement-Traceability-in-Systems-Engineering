@@ -8,13 +8,13 @@
 	$ python -m venv venv
 	$ .\venv\Scripts\activate
 	```
-  - For macOS:
+  - For macOS
     	```
 	$ python -m venv venv
 	$ source venv/bin/activate
     	```
 3. Install all the dependencies in the virtual environment
-    	```
+	```
    	$ pip install -r dependencies.txt
    	```
 4. Run the local node and web app:
