@@ -1,7 +1,8 @@
 # Introduction
 ## Scenario
-1. The objective of this experiment is to generate requirements for an autonomous vehicle. System objective is _A high-speed autonomous off-road reconnaissance vehicle._
-2. Mission statements that provide the intended utility of the system is also given. You must generate mission, vehicle, and sub-system requirements.
+1. The objective of this experiment is to generate requirements for an autonomous vehicle. System objective is <br>
+   _A high-speed autonomous off-road reconnaissance vehicle._
+3. Mission statements that provide the intended utility of the system is also given. You must generate mission, vehicle, and sub-system requirements.
 
 ## Tools
 1. You need various tool to document and communicate the requirements.
@@ -27,18 +28,18 @@ Detach Delete n.
 # Data Collection
 ## Artifact Creation
 1. Use the template as shown in Figure 3 and fill all the necessary requirement traceability information.
-2. b.	Artifact Creators will be the stake holders involved in creating the artifact.
+2. b.	Artifact Creators will be the stake holders involved in creating the artifact. <br>
    _Ex. Stake holder 1, Stake holder 2, Stake holder 3, Stake holder 4, Stake holder 5, Stake holder 6._
-4. Artifact Name is the name of the artifact. Please use the below names to have consistency throughout the process.
+4. Artifact Name is the name of the artifact. Please use the below names to have consistency throughout the process. <br>
   _Ex: Mission Requirements, System Requirements, Vehicle Requirements, Subsystem Requirements, Minutes of Meeting, Operating Procedures_
 4. Parent Artifact ID is the hash of the block that the current artifact depends on. This block can depend on more than one parent artifact. The parent artifact hash can be found from Neo4J browser as shown in Figure 4. You select the parent artifact block, and the hash will be found on the right side of the browser.
 5. Object is the smallest possible element of the document of a design activity. For instance, in a requirement document, a requirement is the object. In Minutes of meeting, each critical bullet point can become an object.
 6. Parent Object is the smallest possible element that the current Object depends on.
-7. Link Type should be specified for artifact and object traces. Possible link types can be DEPENDS_ON, EVOLVED_TO, JUSTIFIES, SATISFIES.
-  The description of these links will be given using two sample objects “O1” (parent object) and “O2” (child object). 
-  DEPENDS_ON: If “O2” is derived from “O1” and any changes in “O1” will affect “O2”.
-  EVOLVED_TO: If “O2” is newer version of “O1”.
-  JUSTIFIES: If “O2” supports and justifies the existence of “O1”.
+7. Link Type should be specified for artifact and object traces. Possible link types can be DEPENDS_ON, EVOLVED_TO, JUSTIFIES, SATISFIES. <br>
+  The description of these links will be given using two sample objects “O1” (parent object) and “O2” (child object). < br>
+  DEPENDS_ON: If “O2” is derived from “O1” and any changes in “O1” will affect “O2”. <br>
+  EVOLVED_TO: If “O2” is newer version of “O1”. <br>
+  JUSTIFIES: If “O2” supports and justifies the existence of “O1”. <br>
   SATISFIES: If “O2” satisfies “O1”. 
 ## Multiple parents
 1. If a single object/artifact has multiple parents, we must create copies of the same object and document all the parent objects/artifacts and links types.   For instance, if object A has two parent objects B and C, it will be documented as shown in Figure 5.
