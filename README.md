@@ -1,8 +1,8 @@
 # Blockchain application for Requirement Traceability
 
 ## Setup the application
-1. Download the blockchain_app
-2. Create and activate the virtual environment in the blockchain_app folder:
+1. Download the blockchain_app directory...
+2. Create and activate the virtual environment in the blockchain_app directory:
   - Windows
 ```
 python -m venv venv
