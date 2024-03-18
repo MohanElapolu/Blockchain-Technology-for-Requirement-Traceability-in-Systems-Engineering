@@ -1,0 +1,18 @@
+{%extends "base.html"%}
+
+{% block title %}
+Broadcast Block Page
+{% endblock %}
+
+
+{% block content %}
+<body class="text-left">
+    <div class="container">
+        <form id="myForm" action="{{url_for('broadcast_block')}}" method="POST" >
+            <script>
+            document.getElementByID("myForm").submit();
+            </script>
+        </form>
+    </div>
+</body>
+{% endblock %} 

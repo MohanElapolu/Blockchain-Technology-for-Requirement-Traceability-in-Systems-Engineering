@@ -1,0 +1,25 @@
+{%extends "base.html"%}
+
+{% block title %}
+Wallet Page
+{% endblock %}
+
+
+{% block content %}
+<body class="text-center">
+    <div class="col-md-6">
+        <div style="margin-bottom: 5px" class="card text-left bg-dark">
+            <div class="card-body">
+                <h5 class="card-title">My Wallet Details</h5>
+                <p class="card-text"><strong>
+                    Public Key: {{ current_user.public_key }}
+                </strong></p>
+                <p class="card-text"><strong>
+                    Private Key: {{ current_user.private_key }}
+                </strong></p>
+            </div>
+        </div>
+    </div>
+<a class="btn btn-secondary" href="{{ url_for('requirement_page') }}">Back</a>
+</body>
+{% endblock %}

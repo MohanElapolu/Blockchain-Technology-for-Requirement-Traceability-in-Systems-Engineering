@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}
+Requirement Chain
+{% endblock %}
+
+{% block content %}
+<!-- <p>{{ items }}</p> -->
+{% if current_user.public_key %}
+    <!-- Your rows inside the table HERE: -->
+    {% if current_user.username == "user1"%}
+        <div class="container">
+            <h4 class="h1 mb-3 font-weight-normal">
+                Please select an option
+            </h4>
+            <br>
+            <form action='add_genesis_block'>
+                <input class="btn btn-lg btn-block btn-primary" type="submit" value="Add Genesis Block">   
+            </form>
+            <br>
+            <br>
+            <form method="POST" class="from-register" style="color:white">
+                {{ form.hidden_tag() }}
+                {{ form.path_artifact.label() }}
+                {{ form.path_artifact(class="form-control", placeholder="Enter Path to requirement artifact") }}
+                {{form.submit(class="btn btn-lg btn-block btn-primary")}}
+            </form>
+            <br>
+            <br>
+            <form action='get_chain'>
+                <input class="btn btn-lg btn-block btn-primary" type="submit" value="Print the Requirement Chain">   
+            </form>
+        </div>
+    {% else %}
+        <div class="container">
+            <form method="POST" class="from-register" style="color:white">
+                {{ form.hidden_tag() }}
+                <h4 class="h1 mb-3 font-weight-normal">
+                    Please select an option
+                </h4>
+                {{ form.path_artifact.label() }}
+                {{ form.path_artifact(class="form-control", placeholder="Enter Path to requirement artifact") }}
+                {{form.submit(class="btn btn-lg btn-block btn-primary")}}
+            </form>
+            <br>
+            <br>
+            <form action='get_chain'>
+                <input class="btn btn-lg btn-block btn-primary" type="submit" value="Print the Requirement Chain">   
+            </form>
+        </div>
+    {% endif %}
+{% else %}
+    <div class="container">
+        <form method="POST" class="from-register" style="color:white">
+            {{ form.hidden_tag() }}
+            <h1 class="h5 mb-3 font-weight-normal">
+                Please enter wallet details
+            </h1>
+            <br>
+            {{ form.public_key.label() }}
+            {{ form.public_key(class="form-control", placeholder="Public Key") }}
+
+            {{ form.private_key.label() }}
+            {{ form.private_key(class="form-control", placeholder="Private Key")}}
+            <br>
+
+            <div class="checkbox mb-3">
+                <h6>Do not have a Wallet?</h6>
+                <a class="btn btn-sm btn-secondary" href="{{  url_for('create_wallet_page')  }}">Create Wallet</a>
+            </div>
+
+            <br>
+            {{form.submit(class="btn btn-lg btn-block btn-primary")}}
+        </form>
+    </div>    
+</body>
+{% endif %}
+
+{% endblock %}

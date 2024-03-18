@@ -1,0 +1,35 @@
+{%extends "base.html"%}
+
+{% block title %}
+Wallet Page
+{% endblock %}
+
+
+{% block content %}
+<body class="text-center">
+    
+    <div class="container">
+        <form method="POST" class="from-register" style="color:white">
+            {{ form.hidden_tag() }}
+            <h1 class="h5 mb-3 font-weight-normal">
+                Please enter wallet details
+            </h1>
+            <br>
+            {{ form.public_key.label() }}
+            {{ form.public_key(class="form-control", placeholder="Public Key") }}
+
+            {{ form.private_key.label() }}
+            {{ form.private_key(class="form-control", placeholder="Private Key")}}
+            <br>
+
+            <div class="checkbox mb-3">
+                <h6>Do not have a Wallet?</h6>
+                <a class="btn btn-sm btn-secondary" href="{{  url_for('create_wallet_page')  }}">Create Wallet</a>
+            </div>
+
+            <br>
+            {{form.submit(class="btn btn-lg btn-block btn-primary")}}
+        </form>
+    </div>    
+</body>
+{% endblock %}

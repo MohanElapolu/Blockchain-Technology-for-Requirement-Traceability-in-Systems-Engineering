@@ -1,0 +1,25 @@
+{%extends "base.html"%}
+
+{% block title %}
+Wallet Page
+{% endblock %}
+
+
+{% block content %}
+<body class="text-center">
+    <h2 class="display-4 font-weight-normal">{{response["message"]}}</h2>
+    {% for i in response["Id"] %}
+    <div class="col-md-8">
+        <div style="margin-bottom: 5px" class="card text-left bg-dark">
+            <div class="card-body">
+                <h5 class="card-title">Block {{response["numb"][i]}}</h5>
+                <p class="card-text"><strong>
+                    {{ response["block"][i] }}
+                </strong></p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}    
+    <a class="btn btn-secondary" href="{{ url_for('requirement_page') }}">Back</a>
+</body>
+{% endblock %}

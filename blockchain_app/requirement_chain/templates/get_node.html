@@ -1,0 +1,25 @@
+{%extends "base.html"%}
+
+{% block title %}
+Network Page
+{% endblock %}
+
+
+{% block content %}
+<body class="text-center">
+    <h2 class="display-4 font-weight-normal">Node Network</h2>
+    {% for node in peer_nodes %}
+    <div class="col-md-4">
+        <div style="margin-bottom: 5px" class="card text-left bg-dark">
+            <div class="card-body">
+                <h6 class="card-title"></h6>
+                <p class="card-text"><strong>
+                    {{ node }}
+                </strong></p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}    
+    <a class="btn btn-secondary" href="{{ url_for('add_node_page') }}">Back</a>
+</body>
+{% endblock %}
