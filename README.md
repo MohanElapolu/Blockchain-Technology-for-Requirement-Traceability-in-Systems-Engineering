@@ -9,7 +9,7 @@ $ conda create --name bc-env
 $ conda activate bc-env
 ```
 3. Download the blockchain_app directory. Open the anaconda prompt terminal in this directory.
-4. Activate the conda virtual environment.
+4. Activate the conda virtual environment _bc-env_.
 5. Install all the dependencies in the virtual environment
 ```
 $ pip install -r dependencies.txt
