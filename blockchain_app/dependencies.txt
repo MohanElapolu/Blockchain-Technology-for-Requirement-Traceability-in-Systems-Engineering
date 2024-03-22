@@ -6,6 +6,7 @@ flask_sock==0.6.0
 Flask_SocketIO==5.3.2
 Flask_SQLAlchemy==3.0.3
 Flask_WTF==1.1.1
+Werkzeug==2.2.2
 pandas==2.0.2
 pycryptodome==3.14.1
 requests==2.26.0
