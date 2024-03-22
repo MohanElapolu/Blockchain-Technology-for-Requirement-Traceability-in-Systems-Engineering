@@ -34,27 +34,27 @@ ngrok http 5000
 ### Home page
 1. Figure 1 shows the home page of the user interface. User can start using the web application by clicking the start button. <br>
    
-![](/assets/web_app_welcome.png) <br>
+![](/assets_main/web_app_welcome.png) <br>
 *Figure 1: Home page of the web application* <br>
 <br> 
 
 ### Login page
 1. An existing user will enter the credentials in the login page which is shown in Figure 2. <br>
    
-![](/assets/web_app_login.png) <br>
+![](/assets_main/web_app_login.png) <br>
 *Figure 2: Login Page of the web application* <br>
 <br> 
 
 3. New user will click on the Register button to create username and password. Figure 3 shows the web application page where user can create the account. <br>
    
-![](/assets/web_app_create_account.png) <br>
+![](/assets_main/web_app_create_account.png) <br>
 *Figure 3: Create account page of the web application.* <br>
 <br> 
 
 ### Create wallet
 1. For a new user once the account is created, he will be directed to the page as shown in Figure 4 for entering his wallet (public key and private key) details. <br>
 
-![](/assets/web_app_create_wallet.png) <br>
+![](/assets_main/web_app_create_wallet.png) <br>
 *Figure 4: Wallet page of the web application.* <br>
 <br> 
 
@@ -63,7 +63,7 @@ ngrok http 5000
 ### Upload artifact
 1. To upload the artifact, user will be using the page as shown in Figure 5. The user will provide the link of the artifact in the slot Enter Path to requirement artifact and uploads the artifact by clicking Add Requirement Block. If the upload is successful, the newly created block will be shown, if not the error in uploading the artifact is shown. <br>
    
-![](/assets/web_app_upload_artifact.png) <br>
+![](/assets_main/web_app_upload_artifact.png) <br>
 *Figure 5: The page to upload the artifact.* <br>
 <br> 
 
