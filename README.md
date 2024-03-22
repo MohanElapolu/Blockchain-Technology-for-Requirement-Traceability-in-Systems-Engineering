@@ -12,11 +12,11 @@ $ conda activate bc-env
 4. Activate the conda virtual environment.
 5. Install all the dependencies in the virtual environment
 ```
-pip install -r dependencies.txt
+$ pip install -r dependencies.txt
 ```
 4. Run the local node and web app:
 ```
-python run.py
+$ python run.py
 ```
 5. Your app is up and running, copy the address and paste it onto any web browser. This will direct you to homepage of the web application.
    
