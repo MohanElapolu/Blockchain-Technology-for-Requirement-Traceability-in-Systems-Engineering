@@ -1,19 +1,16 @@
 # Blockchain application for Requirement Traceability
 
 ## Setup the application
-1. Download the blockchain_app directory...
-2. Create and activate the virtual environment in the blockchain_app directory:
+1. Prerequisites: Anaconda (conda==23.11.0) and python(==3.11.2) should be installed.
+2. Create and activate the virtual conda environment:
   - Windows
 ```
-python -m venv venv
-.\venv\Scripts\activate
+conda create --name _bc-env_ 
+conda activate _bc-env_
 ```
-  - macOS
-```
-python3 -m venv venv
-source venv/bin/activate
-```
-3. Install all the dependencies in the virtual environment
+3. Download the blockchain_app directory. Open the anaconda prompt terminal in this directory.
+4. Activate the conda virtual environment.
+5. Install all the dependencies in the virtual environment
 ```
 pip install -r dependencies.txt
 ```
