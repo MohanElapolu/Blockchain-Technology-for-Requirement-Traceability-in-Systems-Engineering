@@ -61,7 +61,7 @@ python run.py
 <br> 
 
 ## First Artifact (genesis block)
-1. Use the template as shown in Figure 3 and fill all the necessary requirement traceability information. <br>
+1. Use the template as shown in Figure 3 and fill all the necessary requirement traceability information. The sample template _artifact_template.xlsx_ is given in the home directory of the repository. <br>
    
 ![](/experiment/assets/art_template.png) <br>
 *Figure 3: Template to fill the necessary requirements traceability information* <br>
@@ -73,7 +73,7 @@ python run.py
   _Ex: Mission Requirements, System Requirements, Vehicle Requirements, Subsystem Requirements, Minutes of Meeting, Operating Procedures_
 5. Parent Artifact ID is the hash of the block that the current artifact depends on. But for the first artifact there is no parent artificat. So you can give "no parent artifact".
 7. Object is the smallest possible element of the document of a design activity. For instance, in a requirement document, a requirement is the object. In Minutes of meeting, each critical bullet point can become an object. For the first artifact it can be the system objective.
-   _Ex. This is the system objective
+   _Ex. This is the system objective_
 9. Parent Object is the smallest possible element that the current Object depends on. For the first artifact there is no parent objets. So, you can give "no parent object"
 10. Link Type should be specified for artifact and object traces. Possible link types can be DEPENDS_ON, EVOLVED_TO, JUSTIFIES, SATISFIES. For the first aritfact as there are no parent objects you can give "not-applicable".
 
