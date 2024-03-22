@@ -22,14 +22,7 @@ pip install -r dependencies.txt
 python run.py
 ```
 5. Your app is up and running, copy the address and paste it onto any web browser. This will direct you to homepage of the web application.
-
-## Ngrok (optional)
-1. To broadcast the app running in the local network, you can use ngrok. Register and follow the instructions to download the ngrok. For instance, your app is running on local network https://localhost:5000, the below command can be used in the ngrok terminal that allows local network accessible to everyone..
-```
-ngrok http 5000
-```
-2. The ngrok will provide you the address that can be accessed by your peers.
-
+   
 ## Web-app User Interface
 ### Home page
 1. Figure 1 shows the home page of the user interface. User can start using the web application by clicking the start button. <br>
@@ -61,12 +54,35 @@ ngrok http 5000
 3. If user doesn’t have the public key and private key, he can click on Create Wallet and a new public key and private key is created for the user. He can check the details of the wallet by clicking on My wallet on the top task bar of the web application as shown in Figure 4.
 
 ### Upload artifact
-1. To upload the artifact, user will be using the page as shown in Figure 5. The user will provide the link of the artifact in the slot Enter Path to requirement artifact and uploads the artifact by clicking Add Requirement Block. If the upload is successful, the newly created block will be shown, if not the error in uploading the artifact is shown. <br>
+1. To upload the artifact (excel file), user will be using the page as shown in Figure 5. The user will provide the link of the artifact in the slot Enter Path to requirement artifact and uploads the artifact by clicking Add Requirement Block. If the upload is successful, the newly created block will be shown, if not the error in uploading the artifact is shown. <br>
    
 ![](/assets_main/web_app_upload_artifact.png) <br>
 *Figure 5: The page to upload the artifact.* <br>
 <br> 
 
+## First Artifact (genesis block)
+1. Use the template as shown in Figure 3 and fill all the necessary requirement traceability information. <br>
+   
+![](/experiment/assets/art_template.png) <br>
+*Figure 3: Template to fill the necessary requirements traceability information* <br>
+<br> 
+
+3. Artifact Creators will be the stake holders involved in creating the artifact. <br>
+   _Ex. Stake holder 1, Stake holder 2, Stake holder 3, Stake holder 4, Stake holder 5, Stake holder 6._
+4. Artifact Name is the name of the artifact. Please use the below names to have consistency throughout the process. <br>
+  _Ex: Mission Requirements, System Requirements, Vehicle Requirements, Subsystem Requirements, Minutes of Meeting, Operating Procedures_
+5. Parent Artifact ID is the hash of the block that the current artifact depends on. But for the first artifact there is no parent artificat. So you can give "no parent artifact".
+7. Object is the smallest possible element of the document of a design activity. For instance, in a requirement document, a requirement is the object. In Minutes of meeting, each critical bullet point can become an object. For the first artifact it can be the system objective.
+   _Ex. This is the system objective
+9. Parent Object is the smallest possible element that the current Object depends on. For the first artifact there is no parent objets. So, you can give "no parent object"
+10. Link Type should be specified for artifact and object traces. Possible link types can be DEPENDS_ON, EVOLVED_TO, JUSTIFIES, SATISFIES. For the first aritfact as there are no parent objects you can give "not-applicable".
+
+## Ngrok (optional)
+1. To broadcast the app running in the local network, you can use ngrok. Register and follow the instructions to download the ngrok. For instance, your app is running on local network https://localhost:5000, the below command can be used in the ngrok terminal that allows local network accessible to everyone..
+```
+ngrok http 5000
+```
+2. The ngrok will provide you the address that can be accessed by your peers.
 
 ### Experiment
 1. Follow the instructions in the experiment directory to replicate and use the various functionalities of the framework
