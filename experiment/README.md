@@ -13,8 +13,9 @@
 2. Neo4J for graph-based visualization of requirements, a template to document the artifact and object traces, and the blockchain web application to upload the documents. Further details on the tools are provided in the following sections.
 
 # Graph Visualization:   
+Download and install Neo4J following the instructions in their website.
 ## Neo4J browser
-1. Download and install Neo4J following the instructions in their website. Figure 1, Shows the sample requirement graph displayed in the Neo4J browser. However, at the beginining of the experiment there won't be any information to display. Hence no graph is seen. The command used to generate the graph is
+1. Figure 1, Shows the sample requirement graph displayed in the Neo4J browser. However, at the beginining of the experiment there won't be any information to display. Hence no graph is seen. The command used to generate the graph is
 ```
 Match (n)
 Return n
