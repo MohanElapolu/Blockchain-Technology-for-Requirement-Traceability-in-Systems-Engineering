@@ -3,10 +3,10 @@
 ## Setup the application
 1. Prerequisites: Anaconda (conda==23.11.0) and python(==3.11.2) should be installed.
 2. Create and activate the virtual conda environment:
-  - Windows
+  - Windows (open anaconda prompt terminal)
 ```
-conda create --name bc-env 
-conda activate bc-env
+$ conda create --name bc-env 
+$ conda activate bc-env
 ```
 3. Download the blockchain_app directory. Open the anaconda prompt terminal in this directory.
 4. Activate the conda virtual environment.
