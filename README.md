@@ -5,8 +5,8 @@
 2. Create and activate the virtual conda environment:
   - Windows
 ```
-conda create --name _bc-env_ 
-conda activate _bc-env_
+conda create --name bc-env 
+conda activate bc-env
 ```
 3. Download the blockchain_app directory. Open the anaconda prompt terminal in this directory.
 4. Activate the conda virtual environment.
