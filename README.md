@@ -20,6 +20,13 @@ $ pip install -r dependencies.txt
 $ python run.py
 ```
 5. Your app is up and running, copy the address and paste it onto any web browser. This will direct you to homepage of the web application.
+
+## Ngrok (optional)
+1. To broadcast the app running in the local network, you can use ngrok. Register and follow the instructions to download the ngrok. For instance, your app is running on local network https://localhost:5000, the below command can be used in the ngrok terminal that allows local network accessible to everyone..
+```
+ngrok http 5000
+```
+2. The ngrok will provide you the address that can be accessed by your peers.
    
 ## Web-app User Interface
 ### Home page
@@ -75,12 +82,34 @@ $ python run.py
 9. Parent Object is the smallest possible element that the current Object depends on. For the first artifact there is no parent objets. So, you can give "no parent object"
 10. Link Type should be specified for artifact and object traces. Possible link types can be DEPENDS_ON, EVOLVED_TO, JUSTIFIES, SATISFIES. For the first aritfact as there are no parent objects you can give "not-applicable".
 
-## Ngrok (optional)
-1. To broadcast the app running in the local network, you can use ngrok. Register and follow the instructions to download the ngrok. For instance, your app is running on local network https://localhost:5000, the below command can be used in the ngrok terminal that allows local network accessible to everyone..
+
+# Graph Visualization:   
+Download and install Neo4J following the instructions from Neo4J website. You also need the file _graph_visualization.ipynb_ from _graph_visualization_ directory in this repository.
+## Neo4J browser
+1. Create Neo4J database and open Neo4J browser. Credentials used to create the database is needed for your Neo4J code.
+2. Neo4J browser displays the graph. The command used to generate the graph is
 ```
-ngrok http 5000
+Match (n)
+Return n
 ```
-2. The ngrok will provide you the address that can be accessed by your peers.
+3. However, at the beginining of the experiment there won't be any information to display. Hence no graph is seen.
+4. Graph visualization code is in the visualization directory. Before running the Neo4J code, user will be required to clear the graph database. In case if there is any unwanted graph, the necessary command to delete existing graph database is
+```
+Match (n) 
+Detach Delete n.
+```
+## Neo4J Code
+1. The necessary python code to create graph will be opened in the visual studio (VS) and ready to use. The user must run this code to extract the information from the RequirementChain text file and create Neo4J graph.
+2. To run the Jupyter notebook code the user has to click the run button at the left of the cell as shown in the Figure 2. <br>
+
+![](/experiment/assets/neo4j_code_snippet.png) <br>
+*Figure 2: Portion of python code to create the Neo4J commands.* <br>
+<br>
+3. Now if you run the below command you should be able to see the requirement graph. 
+```
+Match (n)
+Return n
+```
 
 ### Experiment
 1. Follow the instructions in the experiment directory to replicate and use the various functionalities of the framework
