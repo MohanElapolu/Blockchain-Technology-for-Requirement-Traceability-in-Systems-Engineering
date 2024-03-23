@@ -61,7 +61,7 @@ ngrok http 5000
 ### Add peers of the network
 1. Before proceeding to upload the artifact, we should create a network. The _URL_ of the peers can be added using _network page_ of the web app as shown in Figure 5. Just provide the link in the field and click add. To make a local network global you can use _Ngrok_, some information is given in the _Ngrok_ section of this writeup. Similarly, all the peers should add your _URL_ as well, in this way we can create a node network.
 
-![](/assets_main/network.png) <br>
+![](/assets_main/web_app_network.png) <br>
 *Figure 5: Network page of the web application.* <br>
 <br> 
 
