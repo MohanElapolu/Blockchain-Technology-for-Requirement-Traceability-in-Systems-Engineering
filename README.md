@@ -83,9 +83,9 @@ ngrok http 5000
 10. Link Type should be specified for artifact and object traces. Possible link types can be DEPENDS_ON, EVOLVED_TO, JUSTIFIES, SATISFIES. For the first aritfact as there are no parent objects you can give "not-applicable".
 
 
-# Graph Visualization:   
+## Graph Visualization:   
 Download and install Neo4J following the instructions from Neo4J website. You also need the file _graph_visualization.ipynb_ from _graph_visualization_ directory in this repository.
-## Neo4J browser
+### Neo4J browser
 1. Create Neo4J database and open Neo4J browser. Credentials used to create the database is needed for your Neo4J code.
 2. Neo4J browser displays the graph. The command used to generate the graph is
 ```
@@ -98,7 +98,7 @@ Return n
 Match (n) 
 Detach Delete n.
 ```
-## Neo4J Code
+### Neo4J Code
 1. The necessary python code to create graph will be opened in the visual studio (VS) and ready to use. The user must run this code to extract the information from the RequirementChain text file and create Neo4J graph.
 2. To run the Jupyter notebook code the user has to click the run button at the left of the cell as shown in the Figure 2. <br>
 
