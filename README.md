@@ -58,18 +58,25 @@ ngrok http 5000
 
 3. If user doesn’t have the public key and private key, he can click on Create Wallet and a new public key and private key is created for the user. He can check the details of the wallet by clicking on My wallet on the top task bar of the web application as shown in Figure 4.
 
+### Add peers of the network
+1. Before proceeding to upload the artifact, we should create a network. The _URL_ of the peers can be added using _network page_ of the web app as shown in Figure 5. Just provide the link in the field and click add. To make a local network global you can use _Ngrok_, some information is given in the _Ngrok_ section of this writeup. Similarly, all the peers should add your _URL_ as well, in this way we can create a node network.
+
+![](/assets_main/network.png) <br>
+*Figure 5: Network page of the web application.* <br>
+<br> 
+
 ### Upload artifact
-1. To upload the artifact (excel file), user will be using the page as shown in Figure 5. The user will provide the link of the artifact in the slot Enter Path to requirement artifact and uploads the artifact by clicking Add Requirement Block. If the upload is successful, the newly created block will be shown, if not the error in uploading the artifact is shown. <br>
+1. To upload the artifact (excel file), user will be using the page as shown in Figure 6. The user will provide the link of the artifact in the field _Enter Path to requirement artifact_ and uploads the artifact by clicking Add Requirement Block. If the upload is successful, the newly created block will be shown, if not the error in uploading the artifact is shown. <br>
    
 ![](/assets_main/web_app_upload_artifact.png) <br>
-*Figure 5: The page to upload the artifact.* <br>
+*Figure 6: The page to upload the artifact.* <br>
 <br> 
 
 ## First Artifact (genesis block)
-1. Use the template as shown in Figure 3 and fill all the necessary requirement traceability information. The sample template _artifact_template.xlsx_ is given in the home directory of the repository. <br>
+1. Use the template as shown in Figure 7 and fill all the necessary requirement traceability information. The sample template _artifact_template.xlsx_ is given in the home directory of the repository. <br>
    
 ![](/experiment/assets/art_template.png) <br>
-*Figure 3: Template to fill the necessary requirements traceability information* <br>
+*Figure 7: Template to fill the necessary requirements traceability information* <br>
 <br> 
 
 3. Artifact Creators will be the stake holders involved in creating the artifact. <br>
