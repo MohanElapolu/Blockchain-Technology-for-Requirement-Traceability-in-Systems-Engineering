@@ -4,12 +4,12 @@
    _A high-speed autonomous off-road reconnaissance vehicle._
 2. In this experimental scenario, three teams will collaborate to generate the requirements based on the system objective.
 3. The requirement artifacts which are given to each team is there in directories Team_1 , Team_2, Team_3.
-4. The mission statements that provide the intended utility of the system is also given.
+4. The mission statements that provide the intended utility of the system is also given. 
 5. Teams must generate and document mission, vehicle, and sub-system requirements in that heierarchy.
 6. For more details about this scenario, check our paper "Blockchain Technology for Requirement Traceability in Systems Engineering"
 
 ## Tools
-1. Teams use various tools to document and communicate the requirements.
+1. Teams use various tools to document and communicate the requirements. Also, check the instructions in the _readme.md_ file of the repository.
 2. Neo4J for graph-based visualization of requirements, a template to document the artifact and object traces, and the blockchain web application to upload the documents. Further details on the tools are provided in the following sections.
 
 # Graph Visualization:   
@@ -20,7 +20,7 @@ Download and install Neo4J following the instructions in their website.
 Match (n)
 Return n
 ```
-![](/experiment/assets/neo4j_browser.png) <br>
+<img src= "/experiment/assets/neo4j_browser.png" width="450" height="210"> <br>
 *Figure 1: Neo4J requirement graph* <br>
 <br>
 2. Graph visualization code is in the visualization directory. Before running the Neo4J code, user will be required to clear the graph database. The necessary command to delete existing graph database is
@@ -29,18 +29,18 @@ Match (n)
 Detach Delete n.
 ```
 ## Neo4J Code
-1. The necessary python code to create graph will be opened in the visual studio (VS) and ready to use. The user must run this code to extract the information from the RequirementChain text file and create Neo4J graph.
+1. The necessary python code to create graph should be opened in the visual studio (VS) and kept ready to use. The user can run _graph_visualization.ipynb_ code to extract the information from the _RequirementChain.txt_ file in _blockchain_app_ directory and create Neo4J graph.
 2. To run the Jupyter notebook code the user has to click the run button at the left of the cell as shown in the Figure 2. <br>
 
-![](/experiment/assets/neo4j_code_snippet.png) <br>
+<img src= "/experiment/assets/neo4j_code_snippet.png" width="450" height="100"> <br>
 *Figure 2: Portion of python code to create the Neo4J commands.* <br>
 <br>
 
 # Data Collection
 ## Artifact Creation
 1. Use the template as shown in Figure 3 and fill all the necessary requirement traceability information. <br>
-   
-![](/experiment/assets/art_template.png) <br>
+
+<img src= "/experiment/assets/art_template.png" width="450" height="120"> <br>   
 *Figure 3: Template to fill the necessary requirements traceability information* <br>
 <br> 
 
@@ -50,7 +50,7 @@ Detach Delete n.
   _Ex: Mission Requirements, System Requirements, Vehicle Requirements, Subsystem Requirements, Minutes of Meeting, Operating Procedures_
 5. Parent Artifact ID is the hash of the block that the current artifact depends on. This block can depend on more than one parent artifact. The parent artifact hash can be found from Neo4J browser as shown in Figure 4. You select the parent artifact block, and the hash will be found on the right side of the browser. <br> 
 
-![](/experiment/assets/neo4j_browser_2.png) <br>
+<img src= "/experiment/assets/neo4j_browser_2.png" width="450" height="210"> <br>
 *Figure 4: Neo4j graph showing the hash of the block 0.* <br>
 <br>
 
@@ -60,36 +60,36 @@ Detach Delete n.
 
 ## Multiple parents
 1. If a single object/artifact has multiple parents, we must create copies of the same object and document all the parent objects/artifacts and links types.   For instance, if object A has two parent objects B and C, it will be documented as shown in Figure 5. <br>
-   
-![](/experiment/assets/art_template2.png) <br>
+
+<img src= "/experiment/assets/art_template2.png" width="450" height="150"> <br>
 *Figure 5: A sample artifact illustrating the scenario where one object "A" has two parent objects "B" and "C".* <br>
 <br> 
 
 # User Interface
 ## Home page
 1. Figure 6 shows the home page of the user interface. User can start using the web application by clicking the start button. <br>
-   
-![](/experiment/assets/web_app_welcome.png) <br>
+
+<img src= "/experiment/assets/web_app_welcome.png" width="450" height="210"> <br>
 *Figure 6: Home page of the web application* <br>
 <br> 
 
 ## Login page
 1. An existing user will enter the credentials in the login page which is shown in Figure 7. <br>
-   
-![](/experiment/assets/web_app_login.png) <br>
+
+<img src= "/experiment/assets/web_app_login.png" width="450" height="250"> <br>
 *Figure 7: Login Page of the web application* <br>
 <br> 
 
 3. New user will click on the Register button to create username and password. Figure 8 shows the web application page where user can create the account. <br>
    
-![](/experiment/assets/web_app_create_account.png) <br>
+<img src= "/experiment/assets/web_app_create_account.png" width="450" height="250"> <br>
 *Figure 8: Create account page of the web application.* <br>
 <br> 
 
 ## Create wallet
 1. For a new user once the account is created, he will be directed to the page as shown in Figure 9 for entering his wallet (public key and private key) details. <br>
 
-![](/experiment/assets/web_app_create_wallet.png) <br>
+<img src= "/experiment/assets/web_app_create_wallet.png" width="450" height="210"> <br>
 *Figure 9: Wallet page of the web application.* <br>
 <br> 
 
@@ -97,8 +97,8 @@ Detach Delete n.
 
 ## Upload artifact
 1. a.	To upload the artifact, user will be using the page as shown in Figure 10. The user will provide the link of the artifact in the slot Enter Path to requirement artifact and uploads the artifact by clicking Add Requirement Block. If the upload is successful, the newly created block will be shown, if not the error in uploading the artifact is shown. <br>
-   
-![](/experiment/assets/web_app_upload_artifact.png) <br>
+
+<img src= "/experiment/assets/web_app_upload_artifact.png" width="450" height="210"> <br>
 *Figure 10: The page to upload the artifact.* <br>
 <br> 
 
