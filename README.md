@@ -80,21 +80,25 @@ ngrok http 5000
 <br> 
 
 3. Artifact Creators will be the stake holders involved in creating the artifact. <br>
-   _Ex. Stake holder 1, Stake holder 2, Stake holder 3, Stake holder 4, Stake holder 5, Stake holder 6._
+   _Ex. Stake holder 1, Stake holder 2_
 4. Artifact Name is the name of the artifact. Please use the below names to have consistency throughout the process. <br>
-  _Ex: Mission Requirements, System Requirements, Vehicle Requirements, Subsystem Requirements, Minutes of Meeting, Operating Procedures_
-5. Parent Artifact ID is the hash of the block that the current artifact depends on. But for the first artifact there is no parent artificat. So you can give "no parent artifact".
+  _Ex: System Objective, Mission Requirements, System Requirements, Vehicle Requirements, Subsystem Requirements, Minutes of Meeting, Operating Procedures_
+5. Parent Artifact ID is the hash of the block that the current artifact depends on. But for the first artifact there is no parent artificat. So you can give "_no parent artifact_".
 7. Object is the smallest possible element of the document of a design activity. For instance, in a requirement document, a requirement is the object. In Minutes of meeting, each critical bullet point can become an object. For the first artifact it can be the system objective.
-   _Ex. This is the system objective_
-9. Parent Object is the smallest possible element that the current Object depends on. For the first artifact there is no parent objets. So, you can give "no parent object"
-10. Link Type should be specified for artifact and object traces. Possible link types can be DEPENDS_ON, EVOLVED_TO, JUSTIFIES, SATISFIES. For the first aritfact as there are no parent objects you can give "not-applicable".
+   _Ex. A high-speed autonomous off-road reconnaissance vehicle._
+9. Parent Object is the smallest possible element that the current Object depends on. For the first artifact there is no parent objets. So, you can give "_no parent object_"
+10. Link Type should be specified for artifact and object traces. Possible link types can be DEPENDS_ON, EVOLVED_TO, JUSTIFIES, SATISFIES. For the first aritfact as there are no parent objects you can give "_not-applicable_".
 
 
 ## Graph Visualization:   
 Download and install Neo4J following the instructions from Neo4J website. You also need the file _graph_visualization.ipynb_ from _graph_visualization_ directory in this repository.
 ### Neo4J browser
-1. Create Neo4J database and open Neo4J browser. Credentials used to create the database is needed for your Neo4J code.
-2. Neo4J browser displays the graph. The command used to generate the graph is
+1. Create Neo4J database and open Neo4J browser.
+2. Credentials used to create the database is needed for your Neo4J code. You have to update the credentials at the below statement of the code _graph_visualization.ipynb_.
+```
+data_base_connection = GraphDatabase.driver(uri = "bolt://localhost:7687", auth=("neo4j", "123456"))
+```
+3. Neo4J browser displays the graph. The command used to generate the graph is
 ```
 Match (n)
 Return n
