@@ -123,4 +123,18 @@ Return n
 ```
 
 ### Experiment
-1. Follow the instructions in the experiment directory to replicate and use the various functionalities of the framework
+1. Follow the instructions in the experiment directory to implement a predefined scenario and test the various functionalities of the framework
+
+### Citation
+Please cite the below paper (under review), if you find benefit or use any part of this repository.. <br>
+```
+@article{elapolu2024blockchain, 
+  title={Blockchain Technology for Requirement Traceability in Systems Engineering}, 
+  author={Elapolu, Mohan S. R. and Rai, Rahul and Gorsich, David J. and Rizzo, Denise and Rapp, Stephen and Castanier, Matthew P. }, 
+  journal={Information Systems},
+  volume={--},
+  pages={--},
+  year={2024}, 
+  publisher={Elsevier} 
+}
+```
