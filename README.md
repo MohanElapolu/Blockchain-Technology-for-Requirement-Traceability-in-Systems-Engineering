@@ -31,51 +31,51 @@ ngrok http 5000
 ## Web-app User Interface
 ### Home page
 1. Figure 1 shows the home page of the user interface. User can start using the web application by clicking the start button. <br>
-   
-![](/assets_main/web_app_welcome.png) <br>
+
+<img src= "/assets_main/web_app_welcome.png" width="450" height="220"> <br>
 *Figure 1: Home page of the web application* <br>
 <br> 
 
 ### Login page
 1. An existing user will enter the credentials in the login page which is shown in Figure 2. <br>
-   
-![](/assets_main/web_app_login.png) <br>
+
+<img src= "/assets_main/web_app_login.png" width="450" height="270"> <br>
 *Figure 2: Login Page of the web application* <br>
 <br> 
 
 3. New user will click on the Register button to create username and password. Figure 3 shows the web application page where user can create the account. <br>
-   
-![](/assets_main/web_app_create_account.png) <br>
+
+<img src= "/assets_main/web_app_create_account.png" width="450" height="270"> <br>
 *Figure 3: Create account page of the web application.* <br>
 <br> 
 
 ### Create wallet
 1. For a new user once the account is created, he will be directed to the page as shown in Figure 4 for entering his wallet (public key and private key) details. <br>
 
-![](/assets_main/web_app_create_wallet.png) <br>
+<img src= "/assets_main/web_app_create_wallet.png" width="450" height="250"> <br>
 *Figure 4: Wallet page of the web application.* <br>
 <br> 
 
 3. If user doesn’t have the public key and private key, he can click on Create Wallet and a new public key and private key is created for the user. He can check the details of the wallet by clicking on My wallet on the top task bar of the web application as shown in Figure 4.
 
 ### Add peers of the network
-1. Before proceeding to upload the artifact, we should create a network. The _URL_ of the peers can be added using _network page_ of the web app as shown in Figure 5. Just provide the link in the field and click add. To make a local network global you can use _Ngrok_, some information is given in the _Ngrok_ section of this writeup. Similarly, all the peers should add your _URL_ as well, in this way we can create a node network.
+1. Before proceeding to upload the artifact, we should create a network. But if you need to test the protocols, you can skip this step. You can start the network with only one participant. Later you can add the peers. But you should share the latest _RequirementChain.txt_ file with them (it can be found in _blockchain_app_ folder, which stores the blockchain). Now, the _URL_ of the peers can be added using _network page_ of the web app as shown in Figure 5. Just provide the link in the field and click add. To make a local network global you can use _Ngrok_, some information is given in the _Ngrok_ section of this writeup. Similarly, all the peers should add your _URL_ as well, in this way we can create a node network.
 
-![](/assets_main/web_app_network.png) <br>
+<img src= "/assets_main/web_app_network.png" width="450" height="210"> <br>
 *Figure 5: Network page of the web application.* <br>
 <br> 
 
 ### Upload artifact
 1. To upload the artifact (excel file), user will be using the page as shown in Figure 6. The user will provide the link of the artifact in the field _Enter Path to requirement artifact_ and uploads the artifact by clicking Add Requirement Block. If the upload is successful, the newly created block will be shown, if not the error in uploading the artifact is shown. <br>
-   
-![](/assets_main/web_app_upload_artifact.png) <br>
+
+<img src= "/assets_main/web_app_upload_artifact.png" width="450" height="250"> <br>
 *Figure 6: The page to upload the artifact.* <br>
 <br> 
 
 ## First Artifact (genesis block)
 1. Use the template as shown in Figure 7 and fill all the necessary requirement traceability information. The sample template _artifact_template.xlsx_ is given in the home directory of the repository. <br>
    
-![](/experiment/assets/art_template.png) <br>
+<img src= "/experiment/assets/art_template.png" width="450" height="130"> <br>
 *Figure 7: Template to fill the necessary requirements traceability information* <br>
 <br> 
 
@@ -109,7 +109,7 @@ Detach Delete n.
 1. The necessary python code to create graph will be opened in the visual studio (VS) and ready to use. The user must run this code to extract the information from the RequirementChain text file and create Neo4J graph.
 2. To run the Jupyter notebook code the user has to click the run button at the left of the cell as shown in the Figure 2. <br>
 
-![](/experiment/assets/neo4j_code_snippet.png) <br>
+<img src= "/experiment/assets/neo4j_code_snippet.png" width="450" height="80"> <br>
 *Figure 2: Portion of python code to create the Neo4J commands.* <br>
 <br>
 3. Now if you run the below command you should be able to see the requirement graph. 
