@@ -75,7 +75,7 @@ ngrok http 5000
 ## First Artifact (genesis block)
 1. Use the template as shown in Figure 7 and fill all the necessary requirement traceability information. The sample template _artifact_template.xlsx_ is given in the home directory of the repository. <br>
    
-<img src= "/experiment/assets/art_template.png" width="450" height="130"> <br>
+<img src= "/experiment/assets/art_template.png" width="450" height="120"> <br>
 *Figure 7: Template to fill the necessary requirements traceability information* <br>
 <br> 
 
