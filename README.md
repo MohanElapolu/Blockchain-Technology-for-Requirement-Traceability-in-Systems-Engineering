@@ -59,7 +59,9 @@ ngrok http 5000
 3. If user doesn’t have the public key and private key, he can click on Create Wallet and a new public key and private key is created for the user. He can check the details of the wallet by clicking on My wallet on the top task bar of the web application as shown in Figure 4.
 
 ### Add peers of the network
-1. Before proceeding to upload the artifact, we should create a network. But if you need to test the protocols, you can skip this step. You can start the network with only one participant. Later you can add the peers. But you should share the latest _RequirementChain.txt_ file with them (it can be found in _blockchain_app_ folder, which stores the blockchain). Now, the _URL_ of the peers can be added using _network page_ of the web app as shown in Figure 5. Just provide the link in the field and click add. To make a local network global you can use _Ngrok_, some information is given in the _Ngrok_ section of this writeup. Similarly, all the peers should add your _URL_ as well, in this way we can create a node network.
+1. Before proceeding to upload the artifact, we should create a network.
+2. But if you have to test the protocols, you can skip this step and start the network with only one participant. Later you can add the peers to the network, but you should share the latest _RequirementChain.txt_ file with them (it can be found in _blockchain_app_ folder, which stores the blockchain).
+3. To create a network you need the _URL_ of the peers. The _URLs_ of the peers can be added to your network using _network page_ of the web app as shown in Figure 5. Just provide the link in the field and click add. To make a local network global you can use _Ngrok_, some information is given in the _Ngrok_ section of this writeup. Similarly, all the peers should add your _URL_ as well, in this way we can create a node network.
 
 <img src= "/assets_main/web_app_network.png" width="450" height="210"> <br>
 *Figure 5: Network page of the web application.* <br>
