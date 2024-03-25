@@ -19,10 +19,10 @@ $ pip install -r dependencies.txt
 ```
 $ python run.py
 ```
-5. Your app is up and running, copy the address and paste it onto any web browser. This will direct you to homepage of the web application.
+5. Your app is up and running in local network (Ex: http://localhost:5000, http://127.0.0.1:5000), copy the address and paste it onto any web browser. This will direct you to homepage of the web application.
 
 ## Ngrok
-1. To broadcast the app running in the local network, you can use ngrok. Register and follow the instructions to download the ngrok. For instance, your app is running on local network https://localhost:5000, the below command can be used in the ngrok terminal that allows local network accessible to everyone..
+1. To broadcast the app running in the local network, you can use ngrok. Register and follow the instructions to download the ngrok. For instance, your app is running on local network http://localhost:5000, the below command can be used in the ngrok terminal that allows local network accessible to everyone..
 ```
 ngrok http 5000
 ```
