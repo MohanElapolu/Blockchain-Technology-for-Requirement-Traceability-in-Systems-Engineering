@@ -1,4 +1,4 @@
-# Blockchain application for Requirement Traceability
+# Blockchain Technology for Requirement Traceability
 
 ## Setup the application
 1. Prerequisites: conda and python should be installed. Conda version 23.11.2 and up, Python version 3.11.2 and up, should work. 
