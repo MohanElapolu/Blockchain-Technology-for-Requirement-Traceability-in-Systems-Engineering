@@ -61,7 +61,7 @@ ngrok http 5000
 
 ### Add peers of the network
 1. Before proceeding to upload the artifact, we should create a network.
-2. But if you have to test the protocols, you can skip this step and start the network with only one participant. Later you can add the peers to the network, but you should share the latest _RequirementChain.txt_ file with them (it can be found in _blockchain_app_ folder, which stores the blockchain).
+2. If you have to test the protocols, you can skip this step and start the network with only one participant. Later you can add the peers to the network, however you should share the latest _RequirementChain.txt_ file with them (it can be found in _blockchain_app_ folder, which stores the blockchain).
 3. To create a network you need the _URL_ of the peers. The _URLs_ of the peers can be added to your network using _network page_ of the web app as shown in Figure 5. Just provide the link in the field and click add. To make a local network global you can use _Ngrok_, some information is given in the _Ngrok_ section of this writeup. Similarly, all the peers should add your _URL_ as well, in this way we can create a node network.
 
 <img src= "/assets_main/web_app_network.png" width="450" height="210"> <br>
